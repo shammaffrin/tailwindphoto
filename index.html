@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScg9-QIpTtqHkFKdiSUYK8Y_tXH2mdVTVjAw&s">
+  <title>Photography Portfolio</title>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    *{
+        font-family: "Ubuntu", sans-serif;
+        font-size: 16px;
+        scroll-behavior: smooth;
+    }
+</style>
+</head>
+
+<body class="bg-gray-100">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-black py-4 shadow-md">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <a href="#" class="text-white text-xl font-bold">Naash Photography</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="#gallery" class="text-white hover:text-gray-400">Gallery</a>
+        <a href="#about" class="text-white hover:text-gray-400">About</a>
+        <a href="#contact" class="text-white hover:text-gray-400">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative bg-cover bg-center h-screen" style="background-image: url('https://i1.adis.ws/i/canon/get-inspired-landscape-photography-tips-1-16.9_e7ae10efb78c4526801d6037f80ab177?$hero-header-half-16by9-dt-jpg$');">
+    <div class="bg-black bg-opacity-50 h-full w-full flex justify-center items-center text-center text-white">
+      <div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Capturing Moments, One Click at a Time</h1>
+        <p class="text-lg md:text-xl mb-6 leading-relaxed">Photography that tells stories and creates memories.</p>
+        <a href="#Pictures" class="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-200">Explore Gallery</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Gallery Section -->
+  <section id="Pictures" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">Pictures</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="relative">
+          <img src="https://images.unsplash.com/photo-1685248307090-7398826be120?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlJTIwYWVzdGhldGljfGVufDB8fDB8fHww" alt="Gallery 1" class="w-full h-48 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="relative">
+          <img src="https://media.greatbigphotographyworld.com/wp-content/uploads/2022/04/leading-lines.jpg" alt="Gallery 2" class="w-full h-48 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="relative">
+          <img src="https://cdn.shopify.com/s/files/1/0076/3147/0662/files/Aesthetic_beach_photography.jpg?v=1659682781" alt="Gallery 3" class="w-full h-48 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="relative">
+          <img src="https://static.vecteezy.com/system/resources/thumbnails/024/715/778/small/sunset-meadow-wildflowers-bloom-in-nature-beauty-generated-by-ai-free-photo.jpg" alt="Gallery 4" class="w-full h-48 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="relative">
+          <img src="https://cdn.shopify.com/s/files/1/1619/4221/files/Photo_by_Raimond_Klavins_on_Unsplash.jpg?v=1656063779" alt="Gallery 5" class="w-full h-48 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="relative">
+          <img src="https://i0.wp.com/blog.watermarkup.com/wp-content/uploads/2021/08/aesthetic-picture-ideas-14.jpeg?resize=500%2C667" alt="Gallery 6" class="w-full h-48 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="relative">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAyRSXjtMAnqmj5O1qJ66fVSUOy1mJ3HY50Q&s" alt="Gallery 7" class="w-full h-48 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="relative">
+          <img src="https://i.pinimg.com/236x/cf/45/fc/cf45fce9246a7990d5f16a7d49514671.jpg" alt="Gallery 8" class="w-full h-48 object-cover rounded-lg shadow-md">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-12 bg-white">
+    <div class="container mx-auto px-6 md:grid md:grid-cols-2 gap-6 items-center">
+      <div>
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
+        <p class="text-gray-600 leading-relaxed">
+          Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolor necessitatibus unde accusantium perferendis debitis esse nemo, blanditiis tempore aut assumenda itaque reprehenderit fuga nisi ab, voluptatibus vero, quis excepturi.
+        </p>
+      </div>
+      <div class="mt-4 md:mt-0">
+        <img src="https://cdn.expertphotography.com/wp-content/uploads/2019/04/female-face-girl-posing-outdoors-in-natural-light.jpg" alt="About Me" class="w-full h-40 rounded-lg shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 bg-gray-100">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Get in Touch</h2>
+      <form class="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md">
+        <input type="text" placeholder="Your Name" class="w-full border py-2 px-4 mb-3 rounded-md">
+        <input type="email" placeholder="Your Email" class="w-full border py-2 px-4 mb-3 rounded-md">
+        <textarea placeholder="Your Message" class="w-full border py-2 px-4 mb-3 rounded-md"></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-200">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-4">
+    <div class="container mx-auto px-6 text-center text-white">
+      &copy; 2023 My Photography Portfolio | All Rights Reserved
+    </div>
+  </footer>
+
+</body>
+
+</html>
